@@ -32,28 +32,28 @@
 
 .like-icon:active .main-body {
   transition-delay: 0.05s;
-  fill: var(--animation-fill-color);
+  fill: var(--animation-fill-color, #ff0000);
 }
 
 .like-icon:active .core {
   transition-delay: 0s;
-  fill: var(--animation-fill-color);
+  fill: var(--animation-fill-color, #ff0000);
 }
 
 .like-icon.is-liked .main-body {
   transition-delay: 0.05s;
-  fill: var(--animation-fill-color);
+  fill: var(--animation-fill-color, #ff0000);
 }
 
 .like-icon.is-liked .core {
   transition-delay: 0s;
-  fill: var(--animation-fill-color);
+  fill: var(--animation-fill-color, #ff0000);
 }
 
 .like-icon.is-liked .contour {
   transition-duration: 0.3s;
   transition-delay: 0.06s;
-  fill: var(--animation-fill-color);
+  fill: var(--animation-fill-color, #ff0000);
 }
 
 .like-icon.is-liked .heart {
